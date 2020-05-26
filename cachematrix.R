@@ -1,5 +1,5 @@
 ## Programming Assignment 2 for R Programming on Coursera
-## Assignment: Caching the Inverse of a Matrix
+# Assignment: Caching the Inverse of a Matrix
 
 
 ## 1. Creates a special "matrix" object that can cache its inverse
