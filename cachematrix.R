@@ -52,7 +52,7 @@ cacheSolve <- function(x, ...) {
     ## Get the matrix from our object
     data <- x$get()
 
-    # Calculate the inverted matrix with solve() function
+    ## Calculate the inverted matrix with solve() function
     m <- solve(data, ...)
 
     ## Set the inverted matrix in the cache
