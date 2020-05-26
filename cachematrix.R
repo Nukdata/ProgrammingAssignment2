@@ -1,5 +1,5 @@
 ## Programming Assignment 2 for R Programming on Coursera
-## Assignment: Caching the Inverse of a Matrix
+# Assignment: Caching the Inverse of a Matrix
 
 
 ## 1. Creates a special "matrix" object that can cache its inverse
@@ -34,8 +34,8 @@ makeCacheMatrix <- function( x = matrix() ) {
 
 
 ## 2. Compute the inverse of the special matrix returned by "makeCacheMatrix"
-##    above. If the inverse has already been calculated (and the matrix has not
-##    changed), then the "cachesolve" should retrieve the inverse from the cache.
+#     above. If the inverse has already been calculated (and the matrix has not
+#     changed), then the "cachesolve" should retrieve the inverse from the cache.
 
 cacheSolve <- function(x, ...) {
 
@@ -43,7 +43,7 @@ cacheSolve <- function(x, ...) {
     m <- x$getInverse()
 
     ## If it's already exists return the inverted matrix
-    ## Else create the matrix in working environment
+    #  Else create the matrix in working environment
     if( !is.null(m) ) {
             message("getting cached data")
             return(m)
