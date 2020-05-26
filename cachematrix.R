@@ -43,7 +43,7 @@ cacheSolve <- function(x, ...) {
     m <- x$getInverse()
 
     ## If it's already exists return the inverted matrix
-	## Else create the matrix in working environment
+    ## Else create the matrix in working environment
     if( !is.null(m) ) {
             message("getting cached data")
             return(m)
